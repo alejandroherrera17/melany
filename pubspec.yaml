@@ -1,0 +1,19 @@
+name: corebiz
+version: 1.0.0+1
+description: CoreBiz - Sistema integral de gestión empresarial.
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.5.0
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
